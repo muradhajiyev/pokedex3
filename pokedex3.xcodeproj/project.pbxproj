@@ -12,6 +12,7 @@
 		2DE67E961DDF66C9004543AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DE67E941DDF66C9004543AC /* Main.storyboard */; };
 		2DE67E981DDF66C9004543AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DE67E971DDF66C9004543AC /* Assets.xcassets */; };
 		2DE67E9B1DDF66C9004543AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DE67E991DDF66C9004543AC /* LaunchScreen.storyboard */; };
+		2DE942641DDF6E8E009F2AD1 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2DE942631DDF6E8E009F2AD1 /* pokemon.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		2DE67E971DDF66C9004543AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DE67E9A1DDF66C9004543AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DE67E9C1DDF66C9004543AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DE942631DDF6E8E009F2AD1 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				2DE67E921DDF66C9004543AC /* ViewController.swift */,
 				2DE67E941DDF66C9004543AC /* Main.storyboard */,
 				2DE67E971DDF66C9004543AC /* Assets.xcassets */,
+				2DE942631DDF6E8E009F2AD1 /* pokemon.csv */,
 				2DE67E991DDF66C9004543AC /* LaunchScreen.storyboard */,
 				2DE67E9C1DDF66C9004543AC /* Info.plist */,
 			);
@@ -96,7 +99,7 @@
 				TargetAttributes = {
 					2DE67E8C1DDF66C8004543AC = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 36HEY73GLK;
+						DevelopmentTeam = 84GJS5M4NT;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -126,6 +129,7 @@
 			files = (
 				2DE67E9B1DDF66C9004543AC /* LaunchScreen.storyboard in Resources */,
 				2DE67E981DDF66C9004543AC /* Assets.xcassets in Resources */,
+				2DE942641DDF6E8E009F2AD1 /* pokemon.csv in Resources */,
 				2DE67E961DDF66C9004543AC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,7 +263,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 36HEY73GLK;
+				DEVELOPMENT_TEAM = 84GJS5M4NT;
 				INFOPLIST_FILE = pokedex3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = murad.pokedex3;
@@ -272,7 +276,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 36HEY73GLK;
+				DEVELOPMENT_TEAM = 84GJS5M4NT;
 				INFOPLIST_FILE = pokedex3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = murad.pokedex3;
@@ -300,6 +304,7 @@
 				2DE67EA11DDF66C9004543AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
